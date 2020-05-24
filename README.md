@@ -1,5 +1,7 @@
 Node.js developers often use a package like [config](https://www.npmjs.com/package/config) to manage different configurations for the application... like development, staging, production, etc. Usually, the secrets like database connection strings, social client secrets, and various other secrets are simply thrown in as cleartext and this is not a good idea. Checking-in the secret file to a Git repository is even worse!!! In this article, you will learn about how you can safeguard your secrets in Azure Key Vault and have a better secret management workflow.
 
+<a href="https://www.awakish.com" title="Web 6&#013;Attosol Site 6&#013;https://www.awakish.com" target="_blank"><img src="https://dev.awakish.com/api/v1/resource/5eca5dea9e06f000534c0f36/badge" alt="badge" /></a>
+
 ### Step 1 - Create a Global Secret file
 [Register](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-get-started#a-idregisteraregister-an-application-with-azure-active-directory) your application and [create a KeyVault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-get-started). Once done, copy the values for:
 
